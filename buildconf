@@ -11,7 +11,7 @@ case "$PHP_EXTRA_VERSION" in
     ;;
 esac
 
-devok=0
+devok=1
 debug=no
 
 while test $# -gt 0; do
