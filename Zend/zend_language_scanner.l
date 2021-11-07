@@ -1164,7 +1164,7 @@ NEWLINE ("\r"|"\n"|"\r\n")
 	RETURN_TOKEN(T_FINALLY);
 }
 
-<ST_IN_SCRIPTING>"throw" {
+<ST_IN_SCRIPTING>"eject" {
 	RETURN_TOKEN(T_THROW);
 }
 
@@ -1176,7 +1176,7 @@ NEWLINE ("\r"|"\n"|"\r\n")
 	RETURN_TOKEN(T_ELSEIF);
 }
 
-<ST_IN_SCRIPTING>"endif" {
+<ST_IN_SCRIPTING>"finish_perchance" {
 	RETURN_TOKEN(T_ENDIF);
 }
 
@@ -1232,7 +1232,7 @@ NEWLINE ("\r"|"\n"|"\r\n")
 	RETURN_TOKEN(T_SWITCH);
 }
 
-<ST_IN_SCRIPTING>"endswitch" {
+<ST_IN_SCRIPTING>"finish_what_about" {
 	RETURN_TOKEN(T_ENDSWITCH);
 }
 
@@ -1252,7 +1252,7 @@ NEWLINE ("\r"|"\n"|"\r\n")
 	RETURN_TOKEN(T_CONTINUE);
 }
 
-<ST_IN_SCRIPTING>"goto" {
+<ST_IN_SCRIPTING>"colonize" {
 	RETURN_TOKEN(T_GOTO);
 }
 
