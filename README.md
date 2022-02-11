@@ -15,14 +15,18 @@ Changed keywords
 | new              | nouveau            |
 | die              | cheerio            |
 | if               | perchance          |
+| endif            | finish_perchance   |
 | elseif           | otherwise_perchance|
 | else             | otherwise          |
 | switch           | what_about         |
+| endswitch        | finish_what_about
 | case             | perhaps            |
 | default          | on_the_off_chance  |
 | break            | splendid           |
 | echo             | announce           |
 | class            | upper_class, middle_class, working_class |
+| throw            | eject              |
+| goto             | colonize           |
 
 How to change keywords
 ======================
