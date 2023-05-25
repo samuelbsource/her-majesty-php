@@ -1252,7 +1252,7 @@ NEWLINE ("\r"|"\n"|"\r\n")
 	RETURN_TOKEN(T_CONTINUE);
 }
 
-<ST_IN_SCRIPTING>"colonize" {
+<ST_IN_SCRIPTING>"colonise" {
 	RETURN_TOKEN(T_GOTO);
 }
 
